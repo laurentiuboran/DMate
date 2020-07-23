@@ -1,0 +1,6 @@
+framework module Pods_DMate_DMateUITests {
+  umbrella header "Pods-DMate-DMateUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

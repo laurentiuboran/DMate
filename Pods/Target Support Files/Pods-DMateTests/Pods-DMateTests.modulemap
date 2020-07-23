@@ -1,0 +1,6 @@
+framework module Pods_DMateTests {
+  umbrella header "Pods-DMateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

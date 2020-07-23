@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D22D562B8B8277C81673E77 /* Pods_DMate_DMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EBB90F9F366083B62208B4 /* Pods_DMate_DMateUITests.framework */; };
+		782B2D9C870B42992769726A /* Pods_DMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB71C1B724C932F44FEBA4 /* Pods_DMateTests.framework */; };
+		9317F69B24A4CC9400FDF2A8 /* DMate_CoronaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317F69A24A4CC9400FDF2A8 /* DMate_CoronaUITests.swift */; };
+		932A9587244A2B2100C881FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A9586244A2B2100C881FB /* AppDelegate.swift */; };
+		932A9589244A2B2100C881FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A9588244A2B2100C881FB /* SceneDelegate.swift */; };
+		932A958B244A2B2100C881FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A958A244A2B2100C881FB /* ContentView.swift */; };
+		932A958D244A2B2600C881FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932A958C244A2B2600C881FB /* Assets.xcassets */; };
+		932A9590244A2B2600C881FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932A958F244A2B2600C881FB /* Preview Assets.xcassets */; };
+		932A959E244A2B2600C881FB /* DMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A959D244A2B2600C881FB /* DMateTests.swift */; };
+		932A95A9244A2B2600C881FB /* DMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932A95A8244A2B2600C881FB /* DMateUITests.swift */; };
+		932A95B7244A2FF100C881FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 932A95B6244A2FF100C881FB /* GoogleService-Info.plist */; };
+		932DC348244DA13F00C445D5 /* SignUpWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DC347244DA13F00C445D5 /* SignUpWelcome.swift */; };
+		932DC34B244DD43100C445D5 /* SignUpAccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DC34A244DD43100C445D5 /* SignUpAccountData.swift */; };
+		932DC34D244E03FB00C445D5 /* SignUpLifestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DC34C244E03FB00C445D5 /* SignUpLifestyle.swift */; };
+		93336EA9248EA6AE00A52927 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93336EA8248EA6AE00A52927 /* HealthKit.framework */; };
+		934E3F722461CA36001F8F28 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E3F712461CA36001F8F28 /* MailView.swift */; };
+		9372DA192455DB4400AE82C6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9372DA182455DB4400AE82C6 /* ProfileView.swift */; };
+		9388098C24536C8900F633D9 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388098B24536C8900F633D9 /* UserManager.swift */; };
+		9388098F24536F6300F633D9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388098E24536F6300F633D9 /* User.swift */; };
+		9395744324604C92002EC6D1 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9395744224604C92002EC6D1 /* SplashScreen.storyboard */; };
+		93C73B8D244B4FB0006F433B /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C73B8C244B4FB0006F433B /* SessionStore.swift */; };
+		93C73B8F244B5292006F433B /* AuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C73B8E244B5292006F433B /* AuthScreen.swift */; };
+		93C73B91244B5C57006F433B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C73B90244B5C57006F433B /* CustomButton.swift */; };
+		93C73B93244B5C76006F433B /* CustomInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C73B92244B5C76006F433B /* CustomInput.swift */; };
+		93C73B95244B5CD8006F433B /* InlineAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C73B94244B5CD8006F433B /* InlineAlert.swift */; };
+		93CCBAD72453025C0010F2E2 /* SignUpScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CCBAD62453025C0010F2E2 /* SignUpScore.swift */; };
+		93E58C162451E7E1004A65A9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E58C152451E7E1004A65A9 /* LocationManager.swift */; };
+		93E58C192451F789004A65A9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E58C182451F789004A65A9 /* MapView.swift */; };
+		93FCDDFC2491148C008395B9 /* SignUpContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FCDDFB2491148C008395B9 /* SignUpContact.swift */; };
+		D7A8DD8D51D7A5C455EBF98B /* Pods_DMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22146A02E89F085B29EC59BA /* Pods_DMate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9317F69D24A4CC9400FDF2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932A957B244A2B2000C881FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932A9582244A2B2100C881FB;
+			remoteInfo = DMate;
+		};
+		932A959A244A2B2600C881FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932A957B244A2B2000C881FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932A9582244A2B2100C881FB;
+			remoteInfo = DMate;
+		};
+		932A95A5244A2B2600C881FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932A957B244A2B2000C881FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932A9582244A2B2100C881FB;
+			remoteInfo = DMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BEB23C27DC098C467E36B92 /* Pods-DMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMateTests.release.xcconfig"; path = "Target Support Files/Pods-DMateTests/Pods-DMateTests.release.xcconfig"; sourceTree = "<group>"; };
+		126D4F3E1B13BD54CC3B9410 /* Pods-DMate-DMateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMate-DMateUITests.debug.xcconfig"; path = "Target Support Files/Pods-DMate-DMateUITests/Pods-DMate-DMateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1531A8034BC433F9538F7A75 /* Pods-DMate-DMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMate-DMateUITests.release.xcconfig"; path = "Target Support Files/Pods-DMate-DMateUITests/Pods-DMate-DMateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		22146A02E89F085B29EC59BA /* Pods_DMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EBB90F9F366083B62208B4 /* Pods_DMate_DMateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMate_DMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DACD7EE5208936E493875C /* Pods-DMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMate.debug.xcconfig"; path = "Target Support Files/Pods-DMate/Pods-DMate.debug.xcconfig"; sourceTree = "<group>"; };
+		9317F69824A4CC9400FDF2A8 /* DMate CoronaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DMate CoronaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9317F69A24A4CC9400FDF2A8 /* DMate_CoronaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMate_CoronaUITests.swift; sourceTree = "<group>"; };
+		9317F69C24A4CC9400FDF2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932A9583244A2B2100C881FB /* DMate Corona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMate Corona.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		932A9586244A2B2100C881FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		932A9588244A2B2100C881FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		932A958A244A2B2100C881FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		932A958C244A2B2600C881FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		932A958F244A2B2600C881FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		932A9594244A2B2600C881FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932A9599244A2B2600C881FB /* DMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932A959D244A2B2600C881FB /* DMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMateTests.swift; sourceTree = "<group>"; };
+		932A959F244A2B2600C881FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932A95A4244A2B2600C881FB /* DMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932A95A8244A2B2600C881FB /* DMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMateUITests.swift; sourceTree = "<group>"; };
+		932A95AA244A2B2600C881FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932A95B6244A2FF100C881FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		932DC347244DA13F00C445D5 /* SignUpWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWelcome.swift; sourceTree = "<group>"; };
+		932DC34A244DD43100C445D5 /* SignUpAccountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAccountData.swift; sourceTree = "<group>"; };
+		932DC34C244E03FB00C445D5 /* SignUpLifestyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLifestyle.swift; sourceTree = "<group>"; };
+		93336EA8248EA6AE00A52927 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		934E3F712461CA36001F8F28 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		9372DA182455DB4400AE82C6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9388098B24536C8900F633D9 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		9388098E24536F6300F633D9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9395744224604C92002EC6D1 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		93C73B8C244B4FB0006F433B /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		93C73B8E244B5292006F433B /* AuthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreen.swift; sourceTree = "<group>"; };
+		93C73B90244B5C57006F433B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		93C73B92244B5C76006F433B /* CustomInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInput.swift; sourceTree = "<group>"; };
+		93C73B94244B5CD8006F433B /* InlineAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineAlert.swift; sourceTree = "<group>"; };
+		93CCBAD62453025C0010F2E2 /* SignUpScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScore.swift; sourceTree = "<group>"; };
+		93E58C152451E7E1004A65A9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		93E58C182451F789004A65A9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		93FCDDFB2491148C008395B9 /* SignUpContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpContact.swift; sourceTree = "<group>"; };
+		C6DD7B43D899773714214C37 /* Pods-DMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMate.release.xcconfig"; path = "Target Support Files/Pods-DMate/Pods-DMate.release.xcconfig"; sourceTree = "<group>"; };
+		CF7535C76712C37C32BD13BC /* Pods-DMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMateTests.debug.xcconfig"; path = "Target Support Files/Pods-DMateTests/Pods-DMateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1DB71C1B724C932F44FEBA4 /* Pods_DMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9317F69524A4CC9400FDF2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A9580244A2B2100C881FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93336EA9248EA6AE00A52927 /* HealthKit.framework in Frameworks */,
+				D7A8DD8D51D7A5C455EBF98B /* Pods_DMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A9596244A2B2600C881FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782B2D9C870B42992769726A /* Pods_DMateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A95A1244A2B2600C881FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D22D562B8B8277C81673E77 /* Pods_DMate_DMateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F8D09B109D9A22BD49076D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62DACD7EE5208936E493875C /* Pods-DMate.debug.xcconfig */,
+				C6DD7B43D899773714214C37 /* Pods-DMate.release.xcconfig */,
+				126D4F3E1B13BD54CC3B9410 /* Pods-DMate-DMateUITests.debug.xcconfig */,
+				1531A8034BC433F9538F7A75 /* Pods-DMate-DMateUITests.release.xcconfig */,
+				CF7535C76712C37C32BD13BC /* Pods-DMateTests.debug.xcconfig */,
+				0BEB23C27DC098C467E36B92 /* Pods-DMateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E4623C238E8E7DFB5F8DB88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93336EA8248EA6AE00A52927 /* HealthKit.framework */,
+				22146A02E89F085B29EC59BA /* Pods_DMate.framework */,
+				53EBB90F9F366083B62208B4 /* Pods_DMate_DMateUITests.framework */,
+				F1DB71C1B724C932F44FEBA4 /* Pods_DMateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9317F69924A4CC9400FDF2A8 /* DMate CoronaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9317F69A24A4CC9400FDF2A8 /* DMate_CoronaUITests.swift */,
+				9317F69C24A4CC9400FDF2A8 /* Info.plist */,
+			);
+			path = "DMate CoronaUITests";
+			sourceTree = "<group>";
+		};
+		932A957A244A2B2000C881FB = {
+			isa = PBXGroup;
+			children = (
+				932A9585244A2B2100C881FB /* DMate */,
+				932A959C244A2B2600C881FB /* DMateTests */,
+				932A95A7244A2B2600C881FB /* DMateUITests */,
+				9317F69924A4CC9400FDF2A8 /* DMate CoronaUITests */,
+				932A9584244A2B2100C881FB /* Products */,
+				25F8D09B109D9A22BD49076D /* Pods */,
+				8E4623C238E8E7DFB5F8DB88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		932A9584244A2B2100C881FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932A9583244A2B2100C881FB /* DMate Corona.app */,
+				932A9599244A2B2600C881FB /* DMateTests.xctest */,
+				932A95A4244A2B2600C881FB /* DMateUITests.xctest */,
+				9317F69824A4CC9400FDF2A8 /* DMate CoronaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932A9585244A2B2100C881FB /* DMate */ = {
+			isa = PBXGroup;
+			children = (
+				9388098D24536F5600F633D9 /* Types */,
+				939F7625244B163B006A641A /* Sessions */,
+				932A9586244A2B2100C881FB /* AppDelegate.swift */,
+				932A9588244A2B2100C881FB /* SceneDelegate.swift */,
+				939F7628244B17E9006A641A /* Views */,
+				932A958C244A2B2600C881FB /* Assets.xcassets */,
+				932A95B6244A2FF100C881FB /* GoogleService-Info.plist */,
+				932A9594244A2B2600C881FB /* Info.plist */,
+				93E58C172451E7E9004A65A9 /* Managers */,
+				932A958E244A2B2600C881FB /* Preview Content */,
+				9395744224604C92002EC6D1 /* SplashScreen.storyboard */,
+			);
+			path = DMate;
+			sourceTree = "<group>";
+		};
+		932A958E244A2B2600C881FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				932A958F244A2B2600C881FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		932A959C244A2B2600C881FB /* DMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				932A959D244A2B2600C881FB /* DMateTests.swift */,
+				932A959F244A2B2600C881FB /* Info.plist */,
+			);
+			path = DMateTests;
+			sourceTree = "<group>";
+		};
+		932A95A7244A2B2600C881FB /* DMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				932A95A8244A2B2600C881FB /* DMateUITests.swift */,
+				932A95AA244A2B2600C881FB /* Info.plist */,
+			);
+			path = DMateUITests;
+			sourceTree = "<group>";
+		};
+		932DC349244DD08A00C445D5 /* Signup Views */ = {
+			isa = PBXGroup;
+			children = (
+				932DC347244DA13F00C445D5 /* SignUpWelcome.swift */,
+				932DC34A244DD43100C445D5 /* SignUpAccountData.swift */,
+				932DC34C244E03FB00C445D5 /* SignUpLifestyle.swift */,
+				93CCBAD62453025C0010F2E2 /* SignUpScore.swift */,
+				93FCDDFB2491148C008395B9 /* SignUpContact.swift */,
+			);
+			path = "Signup Views";
+			sourceTree = "<group>";
+		};
+		9372DA172455DB2900AE82C6 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				93C73B90244B5C57006F433B /* CustomButton.swift */,
+				93C73B92244B5C76006F433B /* CustomInput.swift */,
+				93C73B94244B5CD8006F433B /* InlineAlert.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		9388098D24536F5600F633D9 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				9388098E24536F6300F633D9 /* User.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		93957441246043E0002EC6D1 /* Profile Views */ = {
+			isa = PBXGroup;
+			children = (
+				9372DA182455DB4400AE82C6 /* ProfileView.swift */,
+			);
+			path = "Profile Views";
+			sourceTree = "<group>";
+		};
+		939F7625244B163B006A641A /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+		939F7628244B17E9006A641A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				932A958A244A2B2100C881FB /* ContentView.swift */,
+				93C73B8E244B5292006F433B /* AuthScreen.swift */,
+				93957441246043E0002EC6D1 /* Profile Views */,
+				9372DA172455DB2900AE82C6 /* Custom Views */,
+				932DC349244DD08A00C445D5 /* Signup Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93E58C172451E7E9004A65A9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				93C73B8C244B4FB0006F433B /* SessionStore.swift */,
+				93E58C152451E7E1004A65A9 /* LocationManager.swift */,
+				93E58C182451F789004A65A9 /* MapView.swift */,
+				9388098B24536C8900F633D9 /* UserManager.swift */,
+				934E3F712461CA36001F8F28 /* MailView.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9317F69724A4CC9400FDF2A8 /* DMate CoronaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9317F6A124A4CC9400FDF2A8 /* Build configuration list for PBXNativeTarget "DMate CoronaUITests" */;
+			buildPhases = (
+				9317F69424A4CC9400FDF2A8 /* Sources */,
+				9317F69524A4CC9400FDF2A8 /* Frameworks */,
+				9317F69624A4CC9400FDF2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9317F69E24A4CC9400FDF2A8 /* PBXTargetDependency */,
+			);
+			name = "DMate CoronaUITests";
+			productName = "DMate CoronaUITests";
+			productReference = 9317F69824A4CC9400FDF2A8 /* DMate CoronaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		932A9582244A2B2100C881FB /* DMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932A95AD244A2B2600C881FB /* Build configuration list for PBXNativeTarget "DMate" */;
+			buildPhases = (
+				99628732DBA034B3E9E55AB5 /* [CP] Check Pods Manifest.lock */,
+				932A957F244A2B2100C881FB /* Sources */,
+				932A9580244A2B2100C881FB /* Frameworks */,
+				932A9581244A2B2100C881FB /* Resources */,
+				6FEA721B637FF0F3E323822F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMate;
+			productName = DMate;
+			productReference = 932A9583244A2B2100C881FB /* DMate Corona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		932A9598244A2B2600C881FB /* DMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932A95B0244A2B2600C881FB /* Build configuration list for PBXNativeTarget "DMateTests" */;
+			buildPhases = (
+				F746C6F7432D9B52B4FD43D5 /* [CP] Check Pods Manifest.lock */,
+				932A9595244A2B2600C881FB /* Sources */,
+				932A9596244A2B2600C881FB /* Frameworks */,
+				932A9597244A2B2600C881FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932A959B244A2B2600C881FB /* PBXTargetDependency */,
+			);
+			name = DMateTests;
+			productName = DMateTests;
+			productReference = 932A9599244A2B2600C881FB /* DMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		932A95A3244A2B2600C881FB /* DMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932A95B3244A2B2600C881FB /* Build configuration list for PBXNativeTarget "DMateUITests" */;
+			buildPhases = (
+				7F55393CB1DAA2ED149B1C98 /* [CP] Check Pods Manifest.lock */,
+				932A95A0244A2B2600C881FB /* Sources */,
+				932A95A1244A2B2600C881FB /* Frameworks */,
+				932A95A2244A2B2600C881FB /* Resources */,
+				07DA8E8FA045D22774CFD904 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932A95A6244A2B2600C881FB /* PBXTargetDependency */,
+			);
+			name = DMateUITests;
+			productName = DMateUITests;
+			productReference = 932A95A4244A2B2600C881FB /* DMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932A957B244A2B2000C881FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Weberco;
+				TargetAttributes = {
+					9317F69724A4CC9400FDF2A8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 932A9582244A2B2100C881FB;
+					};
+					932A9582244A2B2100C881FB = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					932A9598244A2B2600C881FB = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 932A9582244A2B2100C881FB;
+					};
+					932A95A3244A2B2600C881FB = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 932A9582244A2B2100C881FB;
+					};
+				};
+			};
+			buildConfigurationList = 932A957E244A2B2100C881FB /* Build configuration list for PBXProject "DMate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932A957A244A2B2000C881FB;
+			packageReferences = (
+				93F7512924901BBC0017A9E1 /* XCRemoteSwiftPackageReference "LBTATools" */,
+			);
+			productRefGroup = 932A9584244A2B2100C881FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932A9582244A2B2100C881FB /* DMate */,
+				932A9598244A2B2600C881FB /* DMateTests */,
+				932A95A3244A2B2600C881FB /* DMateUITests */,
+				9317F69724A4CC9400FDF2A8 /* DMate CoronaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9317F69624A4CC9400FDF2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A9581244A2B2100C881FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932A95B7244A2FF100C881FB /* GoogleService-Info.plist in Resources */,
+				9395744324604C92002EC6D1 /* SplashScreen.storyboard in Resources */,
+				932A9590244A2B2600C881FB /* Preview Assets.xcassets in Resources */,
+				932A958D244A2B2600C881FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A9597244A2B2600C881FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A95A2244A2B2600C881FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07DA8E8FA045D22774CFD904 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMate-DMateUITests/Pods-DMate-DMateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMate-DMateUITests/Pods-DMate-DMateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DMate-DMateUITests/Pods-DMate-DMateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FEA721B637FF0F3E323822F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMate/Pods-DMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMate/Pods-DMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DMate/Pods-DMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F55393CB1DAA2ED149B1C98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMate-DMateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99628732DBA034B3E9E55AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F746C6F7432D9B52B4FD43D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9317F69424A4CC9400FDF2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9317F69B24A4CC9400FDF2A8 /* DMate_CoronaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A957F244A2B2100C881FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C73B8F244B5292006F433B /* AuthScreen.swift in Sources */,
+				93CCBAD72453025C0010F2E2 /* SignUpScore.swift in Sources */,
+				932DC34B244DD43100C445D5 /* SignUpAccountData.swift in Sources */,
+				932DC34D244E03FB00C445D5 /* SignUpLifestyle.swift in Sources */,
+				9388098F24536F6300F633D9 /* User.swift in Sources */,
+				93C73B8D244B4FB0006F433B /* SessionStore.swift in Sources */,
+				9388098C24536C8900F633D9 /* UserManager.swift in Sources */,
+				934E3F722461CA36001F8F28 /* MailView.swift in Sources */,
+				93FCDDFC2491148C008395B9 /* SignUpContact.swift in Sources */,
+				93C73B95244B5CD8006F433B /* InlineAlert.swift in Sources */,
+				932A9587244A2B2100C881FB /* AppDelegate.swift in Sources */,
+				9372DA192455DB4400AE82C6 /* ProfileView.swift in Sources */,
+				93E58C192451F789004A65A9 /* MapView.swift in Sources */,
+				93C73B91244B5C57006F433B /* CustomButton.swift in Sources */,
+				932A9589244A2B2100C881FB /* SceneDelegate.swift in Sources */,
+				932A958B244A2B2100C881FB /* ContentView.swift in Sources */,
+				93C73B93244B5C76006F433B /* CustomInput.swift in Sources */,
+				932DC348244DA13F00C445D5 /* SignUpWelcome.swift in Sources */,
+				93E58C162451E7E1004A65A9 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A9595244A2B2600C881FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932A959E244A2B2600C881FB /* DMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932A95A0244A2B2600C881FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932A95A9244A2B2600C881FB /* DMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9317F69E24A4CC9400FDF2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932A9582244A2B2100C881FB /* DMate */;
+			targetProxy = 9317F69D24A4CC9400FDF2A8 /* PBXContainerItemProxy */;
+		};
+		932A959B244A2B2600C881FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932A9582244A2B2100C881FB /* DMate */;
+			targetProxy = 932A959A244A2B2600C881FB /* PBXContainerItemProxy */;
+		};
+		932A95A6244A2B2600C881FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932A9582244A2B2100C881FB /* DMate */;
+			targetProxy = 932A95A5244A2B2600C881FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9317F69F24A4CC9400FDF2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S55HD35KTW;
+				INFOPLIST_FILE = "DMate CoronaUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weberco.DMate-CoronaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DMate;
+			};
+			name = Debug;
+		};
+		9317F6A024A4CC9400FDF2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S55HD35KTW;
+				INFOPLIST_FILE = "DMate CoronaUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weberco.DMate-CoronaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DMate;
+			};
+			name = Release;
+		};
+		932A95AB244A2B2600C881FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932A95AC244A2B2600C881FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932A95AE244A2B2600C881FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DACD7EE5208936E493875C /* Pods-DMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DMate/Preview Content\"";
+				DEVELOPMENT_TEAM = S55HD35KTW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DMate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weberco.DMate;
+				PRODUCT_NAME = "DMate Corona";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		932A95AF244A2B2600C881FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6DD7B43D899773714214C37 /* Pods-DMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DMate/Preview Content\"";
+				DEVELOPMENT_TEAM = S55HD35KTW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DMate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weberco.DMate;
+				PRODUCT_NAME = "DMate Corona";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		932A95B1244A2B2600C881FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF7535C76712C37C32BD13BC /* Pods-DMateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S55HD35KTW;
+				INFOPLIST_FILE = DMateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weberco.DMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMate Corona.app/DMate Corona";
+			};
+			name = Debug;
+		};
+		932A95B2244A2B2600C881FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BEB23C27DC098C467E36B92 /* Pods-DMateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S55HD35KTW;
+				INFOPLIST_FILE = DMateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weberco.DMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMate Corona.app/DMate Corona";
+			};
+			name = Release;
+		};
+		932A95B4244A2B2600C881FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126D4F3E1B13BD54CC3B9410 /* Pods-DMate-DMateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S55HD35KTW;
+				INFOPLIST_FILE = DMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weberco.DMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DMate;
+			};
+			name = Debug;
+		};
+		932A95B5244A2B2600C881FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1531A8034BC433F9538F7A75 /* Pods-DMate-DMateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S55HD35KTW;
+				INFOPLIST_FILE = DMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weberco.DMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9317F6A124A4CC9400FDF2A8 /* Build configuration list for PBXNativeTarget "DMate CoronaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9317F69F24A4CC9400FDF2A8 /* Debug */,
+				9317F6A024A4CC9400FDF2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932A957E244A2B2100C881FB /* Build configuration list for PBXProject "DMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932A95AB244A2B2600C881FB /* Debug */,
+				932A95AC244A2B2600C881FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932A95AD244A2B2600C881FB /* Build configuration list for PBXNativeTarget "DMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932A95AE244A2B2600C881FB /* Debug */,
+				932A95AF244A2B2600C881FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932A95B0244A2B2600C881FB /* Build configuration list for PBXNativeTarget "DMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932A95B1244A2B2600C881FB /* Debug */,
+				932A95B2244A2B2600C881FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932A95B3244A2B2600C881FB /* Build configuration list for PBXNativeTarget "DMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932A95B4244A2B2600C881FB /* Debug */,
+				932A95B5244A2B2600C881FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93F7512924901BBC0017A9E1 /* XCRemoteSwiftPackageReference "LBTATools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bhlvoong/LBTATools";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 932A957B244A2B2000C881FB /* Project object */;
+}
